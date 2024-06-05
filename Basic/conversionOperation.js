@@ -1,17 +1,15 @@
 let score = ""
-console.log(typeof(score))
-/* Convert String to Number */
+// console.log(typeof(score))
+// /* Convert String to Number */
 let valueInNumber = Number(score)
-console.log(typeof(valueInNumber))
-console.log(valueInNumber)  // Result Nan got
-
-
+// console.log(typeof(valueInNumber))
+// console.log(valueInNumber)  // Result Nan got
 let scores = null
-console.log(typeof(scores))
-/*convert null into number */
+// console.log(typeof(scores))
+// /*convert null into number */
 let valueInNumbers = Number(scores)
-console.log(valueInNumbers)   // 0 Results got
-console.log(typeof(valueInNumbers))
+// console.log(valueInNumbers)   // 0 Results got
+// console.log(typeof(valueInNumbers))
 
 /* Convert into number */
 //  "33" => 33
@@ -23,5 +21,11 @@ console.log(typeof(valueInNumbers))
 /* Boolean Converts */
 let isLoggedIn = "Nilesh"
 let isLoggedInBoolean = Boolean(isLoggedIn)
-console.log(isLoggedIn)
-console.log(typeof(isLoggedInBoolean))
+// console.log(isLoggedIn)
+// console.log(typeof(isLoggedInBoolean))
+
+//********************************* Operation *********************************
+
+let value = 3
+let negvalue = -value
+// console.log(negvalue)
