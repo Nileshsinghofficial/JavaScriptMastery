@@ -38,5 +38,11 @@ str3 = str1 + str2 + "4"
 //console.log(typeof(str3))
 
 let gameConnter = 100
-++gameConnter;
-console.log(gameConnter);
+const x =  gameConnter++;
+console.log("X :",x);
+console.log("Gamecounter :" ,gameConnter);
+
+let gameConnters = 100
+const y =  ++gameConnters;
+console.log(y);
+console.log(gameConnters);
