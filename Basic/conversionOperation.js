@@ -29,3 +29,14 @@ let isLoggedInBoolean = Boolean(isLoggedIn)
 let value = 3
 let negvalue = -value
 // console.log(negvalue)
+
+str1 = 1
+str2 = 2
+str3 = str1 + str2 + "4"
+//console.log(str3)
+
+//console.log(typeof(str3))
+
+let gameConnter = 100
+++gameConnter;
+console.log(gameConnter);
