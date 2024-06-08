@@ -18,5 +18,10 @@
 // console.log(Math.floor(44.2)); // floar value like 44.3 => 44
 // console.log(Math.min(3,5,6,4,3)); // Select minumum value
 // console.log(Math.max(7,4,5,2,3)); // Select Maximum value
+/* Random value lie b/w 0 to 1 and multiplay with 10 */
+// console.log((Math.floor(Math.random()*10)) + 1);
 
-console.log((Math.floor(Math.random()*10)) + 1);
+const min = 20
+const max = 40
+/* at least upper to 20 got random value */
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
