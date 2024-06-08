@@ -39,10 +39,12 @@ str3 = str1 + str2 + "4"
 
 let gameConnter = 100
 const x =  gameConnter++;
-console.log("X :",x);
-console.log("Gamecounter :" ,gameConnter);
+// console.log("X :",x);
+// console.log("Gamecounter :" ,gameConnter);
 
 let gameConnters = 100
 const y =  ++gameConnters;
-console.log(y);
-console.log(gameConnters);
+// console.log(y);
+// console.log(gameConnters);
+
+
