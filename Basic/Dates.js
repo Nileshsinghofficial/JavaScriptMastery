@@ -14,5 +14,14 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2024, 5, 8, 5,3)
 // console.log(myCreatedDate.toLocaleString())
 
-let myCreateDates = new Date("11-23-2024") // format (mm-dd-yy)
-console.log(myCreateDates.toLocaleString())
+let myCreateDates = new Date("11-22-2024") // format (mm-dd-yy)
+// console.log(myCreateDates.toLocaleString()) // 23/11/2024, 12:00:00 am
+
+// Current Date Show
+
+let myTimeStamp = Date.now()
+
+// console.log(myCreateDates.getTime());
+
+// console.log(Math.floor(myCreateDates/1000));
+// console.log(Math.floor(Date.now()/1000));
