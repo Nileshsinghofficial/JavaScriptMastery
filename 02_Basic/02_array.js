@@ -21,3 +21,6 @@ const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7,[4, 5]]]
 const real_another_array = another_array.flat(Infinity)
 // console.log(real_another_array); // array inside array change into single array
 
+// console.log(Array.isArray("Nilesh")) // to check true/false
+// console.log(Array.from("Nilesh")) // to convert into array
+console.log(Array.from({name: "Nilesh"}))
