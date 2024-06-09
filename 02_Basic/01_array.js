@@ -23,11 +23,11 @@ const newArr = myArr.join() // arry => change into string
 
 console.log("A", myArr);
 
-const myn1 = myArr.slice(1,3)
+const myn1 = myArr.slice(1,3) // start to n-1 position of array
 console.log(myn1);
 console.log("B", myArr);
 
 /*Splice */
-const myn2 = myArr.splice(1,3)
+const myn2 = myArr.splice(1,3) //start to n position of array and extract from original array
 console.log(myn2);
 console.log("C ", myArr)
