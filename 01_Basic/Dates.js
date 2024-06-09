@@ -25,3 +25,11 @@ let myTimeStamp = Date.now()
 
 // console.log(Math.floor(myCreateDates/1000));
 // console.log(Math.floor(Date.now()/1000));
+
+let newDate = new Date()
+// console.log(newDate.getDate())
+// console.log(newDate.getMonth() + 1);
+
+console.log(newDate.toLocaleString('default',{
+    weekday:"long"
+}))
