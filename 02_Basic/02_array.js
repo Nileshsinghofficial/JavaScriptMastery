@@ -6,6 +6,12 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-const allheros = marvel_heros.concat(dc_heros)
-console.log(allheros)
+// const allheros = marvel_heros.concat(dc_heros)
+// console.log(allheros)
+
+
 // console.log(marvel_heros.flat());
+
+/* Spread method to concate array  */
+const all_new_heros = [...marvel_heros,...dc_heros]
+console.log(all_new_heros);
