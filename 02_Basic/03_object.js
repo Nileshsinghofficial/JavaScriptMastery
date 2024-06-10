@@ -31,5 +31,9 @@ const JsUser = {
 JsUser.greeting = function(){
     console.log("Hello Js user")
 }
+JsUser.greeting = function(){
+    console.log(`Hello Js User, ${this.name}`);
+}
+
 
 console.log(JsUser.greeting());
