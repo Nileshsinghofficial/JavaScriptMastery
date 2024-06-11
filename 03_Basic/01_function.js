@@ -9,4 +9,11 @@ function sayMyName(){
     console.log("H");
 }
 
-sayMyName(); 
+// sayMyName(); 
+
+function addTwoNumber(number1, number2){
+    console.log(number1 + number2)
+}
+
+const result = addTwoNumber(3,4)
+console.log("Result:", result)
