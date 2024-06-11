@@ -40,4 +40,33 @@ function loginUserMessage(username = "John"){  // give a default user name if no
 }
 
 // console.log(loginUserMessage("Nilesh"))
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+function calculateCardPrice(...num1){  // rest or spread method
+    return num1
+}
+
+// console.log(calculateCardPrice(200, 400, 500));
+
+const user = {
+    username: "Nilesh",
+    price: 200
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and Price is ${anyObject.price}`)
+}
+
+// handleObject(user);
+
+// handleObject({
+//     username: "Nilesh Singh",
+//     price: 205
+// })
+
+const saynewMyName = [200, 300, 500]
+
+function returnSecondValue(getArray){
+    return getArray
+}
+console.log(returnSecondValue(saynewMyName));
