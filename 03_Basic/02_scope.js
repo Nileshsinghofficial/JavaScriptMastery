@@ -12,15 +12,15 @@ if(true){
 
 function one(){
     const username = "Nilesh"
-    console.log(username);
+    // console.log(username);
 
     function two(){
         const websitename = "ccsufest.tech"
-        console.log(websitename);
+        // console.log(websitename);
     }
     // console.log(websitename);
 
-    two()
+    // two()
 }
 
 // one()
@@ -29,15 +29,15 @@ if(true){
     const username = "nilesh"
     if(username==="nilesh"){
         const  website = "ccsufest.tech"
-        // console.log(username +" " + website)
+        console.log(username +" " + website)
     }
-    // console.log(username    );
+    // console.log(username);
 }
 // console.log(username);
 
 //  +++++++++++++++++ Interseting Concepts +++++++++++++++
 
-console.log(addone(5)) // in this function decleartion method we use before console method.
+// console.log(addone(5)) // in this function decleartion method we use before console method.
 function addone(num){
     return num + 1   
 }
@@ -49,4 +49,4 @@ const addTwo = function(num){
     return num + 2
 }
 
-addTwo(5)
+// addTwo(5)
